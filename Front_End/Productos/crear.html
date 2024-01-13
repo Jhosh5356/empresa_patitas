@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Registró Productos</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+    <!--REGISTRO-->
+    <section>
+    <form action="" method="post">
+      
+      <center> <h2>REGISTRAR PRODUCTOS</h2> </center>
+
+      <form action="../../Back_End/Controlador/productoregistrar.php" method="post"></form>
+      
+      <div class="mb-3 row">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Descripción producto:</label>
+        <div class="col-sm-10">
+          <input type="text" required name="r1" class="form-control" id="inputPassword" placeholder="">
+        </div>
+      </div>
+      
+      <div class="mb-3 row">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Precio(COP) Producto:</label>
+        <div class="col-sm-10">
+          <input type="number" required name="r2" class="form-control" id="inputPassword" placeholder="">
+        </div>
+      </div>
+
+      <div class="mb-3 row">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Categoría Producto:</label>
+        <div class="col-sm-10">
+          <input type="text" required name="r3" class="form-control" id="inputPassword" placeholder="">
+        </div>
+      </div>
+      
+      <div class="mb-3 row">
+        <label for="inputPassword" class="col-sm-2 col-form-label">Estado Producto:</label>
+        <div class="col-sm-10">
+          <input type="text" required name="r4" class="form-control" id="inputPassword" placeholder="">
+        </div>
+      </div>
+
+
+      <button type="submit" class="btn btn-outline-dark">Registrar Producto</button>
+        
+    </form>
+  </section>
+
+  </body>
+</html>
